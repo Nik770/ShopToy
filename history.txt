@@ -1,0 +1,57 @@
+ 121  mkdir Certification
+ 122  cd Certification/
+ 123  mkdir baby_toys school_toys
+ 124  ll
+ 125  cd school_toys/
+ 126  touch robo lego quests
+ 127  ll
+ 128  cd ../baby_toys/
+ 129  touch cars dolls bears
+ 130  ll
+ 131  ll
+ 132  cd
+ 133  mkdir toys
+ 134  mv toys/ Certification/
+ 135  cd Certification/
+ 136  ll
+ 137  rm -r baby_toys/ toys/
+ 138  ll
+ 139  rm -r school_toys/
+ 140  clear
+ 141  mkdir baby_toys school_toys
+ 142  ll
+ 143  cd baby_toys/
+ 144  touch cars bears dolls
+ 145  cd ..
+ 146  cd school_toys/
+ 147  touch quests lego robots
+ 148  ll
+ 149  cd ..
+ 150  ll
+ 151  mkdir toys
+ 152  cp -r baby_toys/ toys/
+ 153  cp -r school_toys/ toys/
+ 154  cd toys/
+ 155  ll
+ 156  cd ..
+ 157  mv toys/ toys_name
+ 158  cd toys_name/
+ 159  cd baby_toys/
+ 160  mv * ../
+ 161  cd ..
+ 162  ll
+ 163  mv school_toys/* .
+ 164  ll
+ 165  rm baby_toys/ school_toys/
+ 166  rm -r baby_toys/ school_toys/
+ 167  ll
+ 168  cd ..
+ 169  mv toys_name/ toys
+ 170  sudo snap search opera
+ 171  sudo snap install opera
+ 172  sudo snap remove opera
+ 173  sudo crontab -e
+ 174  ll
+ 175  rm -r baby_toys/ school_toys/
+ 176  ll
+ 177  history
